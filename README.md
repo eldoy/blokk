@@ -1,19 +1,13 @@
-# Libinit
+# Blokk
 
-Template for new NodeJS apps.
+Blokk rapid javascript frontend prototyper.
 
 ### Usage
 
-Add this function to your `.zshrc` or `.bashrc`
-```sh
-function template {
-  git clone https://github.com/eldoy/libinit.git $1 && rm -rf $1/.git && cd $1 && git init
-}
+```
+npm i blokk
 ```
 
-Then use like this:
-```sh
-template name
-```
+Read the source code for documentation.
 
-MIT Licensed. Enjoy!
+ISC Licensed. Enjoy!
