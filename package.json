@@ -4,12 +4,15 @@
   "description": "Blokk rapid javascript frontend prototyper",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "nodemon -q -e js,mjs,json,yml,css,md --exec spekk"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/eldoy/blokk"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "spekk": "^0.2.1"
+  }
 }
