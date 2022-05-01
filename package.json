@@ -4,7 +4,21 @@
   "description": "Blokk rapid javascript frontend prototyper",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon -q -e js,mjs,json,yml,css,md spec/index.js"
+    "test": "nodemon -q -e js,mjs,json,yml,css,md spec/index.js",
+    "dev": "npm run clear:css && npm run build:css && concurrently -n 🔥,💗 \"npm run watch:app\" \"npm run watch:css\"",
+    "watch:app": "nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve",
+    "watch:css": "sass --watch app/assets/scss/app.scss app/assets/css/build/app.css",
+    "build:css": "sass app/assets/scss/app.scss app/assets/css/build/app.css",
+    "build:css:min": "sass --style compressed --no-source-map app/assets/scss/app.scss app/assets/css/build/app.css",
+    "clear:css": "rm -rf app/assets/css/build",
+    "build": "npm run clear:css && npm run build:css:min && waveorb build",
+    "generate": "waveorb generate",
+    "migrate": "waveorb migrate",
+    "sitemap": "waveorb sitemap",
+    "ping": "waveorb ping",
+    "update": "waveorb update",
+    "deploy": "waveorb deploy",
+    "serve": "waveorb serve"
   },
   "repository": {
     "type": "git",
@@ -14,5 +28,10 @@
   "license": "ISC",
   "dependencies": {
     "spekky": "^0.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "sass": "^1.51.0",
+    "waveorb": "^0.30.6"
   }
 }
