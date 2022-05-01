@@ -8,10 +8,7 @@ async function run() {
 
   await test('details')
   await test('form')
-  await test('header')
   await test('list')
-  await test('nav')
-  await test('search')
 
   // End timer
   console.timeEnd('Test run')

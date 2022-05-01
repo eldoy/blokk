@@ -1,4 +1,4 @@
-const list = require('../../lib/form.js')
+const form = require('../../lib/form.js')
 
 const it = {}, x = {}
 
