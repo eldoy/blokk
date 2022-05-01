@@ -27,6 +27,7 @@
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "license": "ISC",
   "dependencies": {
+    "escape-html": "^1.0.3",
     "spekky": "^0.1.2"
   },
   "devDependencies": {
