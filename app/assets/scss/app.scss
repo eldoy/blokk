@@ -1,6 +1,7 @@
 $font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 
 @import 'vcss.scss';
+@import 'prism.scss';
 
 * {
   font-family: $font-family !important;
