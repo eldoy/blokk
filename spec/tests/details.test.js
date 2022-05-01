@@ -1,4 +1,4 @@
-const list = require('../../lib/list.js')
+const list = require('../../lib/details.js')
 
 const it = {}, x = {}
 
