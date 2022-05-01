@@ -8,6 +8,4 @@ Blokk rapid javascript frontend prototyper.
 npm i blokk
 ```
 
-Read the source code for documentation.
-
 ISC Licensed. Enjoy!
