@@ -2,9 +2,9 @@ module.exports = async function($) {
   $.page.title = 'Blokk Rapid Prototyper for HTML and CSS'
 
   const elements = [
+    'form',
     'list',
-    'details',
-    'form'
+    'details'
   ]
 
   let sections = []
