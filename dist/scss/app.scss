@@ -1,0 +1,82 @@
+$font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+
+@import 'vcss.scss';
+@import 'prism.scss';
+
+* {
+  font-family: $font-family !important;
+}
+
+body {
+  font-size: 18px;
+  background: var(--light);
+}
+
+main {
+  padding: 1rem 0 2rem;
+  max-width: 750px;
+  min-height: 250px;
+}
+
+header {
+  background: limegreen;
+  nav {
+    padding: 1rem 0;
+    max-width: 750px;
+    margin: 0 auto;
+
+    a,a:hover,a:visited,a:active {
+      margin: 0 0.5rem;
+      color: white;
+    }
+  }
+}
+
+footer {
+  color: #666;
+  font-size: 95%;
+}
+
+.logo {
+  max-height: 40px;
+  margin-right: 1rem;
+  position: relative;
+  top: 6px;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    padding: 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 150% !important;
+  }
+  h2 {
+    font-size: 125% !important;
+  }
+  h3 {
+    font-size: 110% !important;
+  }
+  .back, .desktop {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+  :first-child {
+    flex-grow: 1;
+  }
+}
+
+.list {
+  border-bottom: 1px solid $light;
+  padding: 1rem 0;
+}
