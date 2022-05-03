@@ -29,11 +29,11 @@
   "dependencies": {
     "escape-html": "^1.0.3",
     "sass": "^1.51.0",
-    "spekky": "^0.1.2"
+    "spekky": "^0.1.2",
+    "waveorb": "^0.30.6"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",
-    "node-html-parser": "^5.3.3",
-    "waveorb": "^0.30.6"
+    "node-html-parser": "^5.3.3"
   }
 }
