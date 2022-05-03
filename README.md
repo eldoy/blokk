@@ -1,6 +1,8 @@
 # Blokk
 
-Blokk rapid javascript frontend prototyper.
+Blokk rapid Javascript frontend prototyper.
+
+&raquo; [Documentation](https://blokk.eldoy.com)
 
 ### Usage
 
