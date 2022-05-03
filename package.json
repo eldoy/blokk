@@ -1,6 +1,6 @@
 {
   "name": "blokk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Blokk rapid javascript frontend prototyper",
   "main": "index.js",
   "scripts": {
