@@ -28,12 +28,12 @@
   "license": "ISC",
   "dependencies": {
     "escape-html": "^1.0.3",
+    "sass": "^1.51.0",
     "spekky": "^0.1.2"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",
     "node-html-parser": "^5.3.3",
-    "sass": "^1.51.0",
     "waveorb": "^0.30.6"
   }
 }
