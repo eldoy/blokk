@@ -1,11 +1,13 @@
-### Details
+[&laquo; Back to docs main page](/docs)
 
-Create details for your list item. Usually used on show pages.
+# Item
+
+Show details for your list item. Usually used on show pages.
 
 ```js
 const { size = 2, title = 'Details', desc, edit, del, render } = opt
 
-await details({
+await item({
   // Size of header html, default is 2 (integer)
   size: 2,
 

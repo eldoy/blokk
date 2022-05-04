@@ -6,7 +6,7 @@ async function run() {
   // Start timer
   console.time('Test run')
 
-  await test('details')
+  await test('item')
   await test('form')
   await test('list')
 

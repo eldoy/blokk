@@ -1,7 +1,7 @@
 {
   "name": "blokk",
   "version": "0.2.0",
-  "description": "Blokk rapid javascript frontend prototyper",
+  "description": "Javascript Rapid Prototyper Web Application Component Library",
   "main": "index.js",
   "scripts": {
     "test": "nodemon -q -e js,mjs,json,yml,css,md spec/index.js",

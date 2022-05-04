@@ -1,4 +1,8 @@
-### Form
+[&laquo; Back to docs main page](/docs)
+
+# Form
+
+The Form component generates a form based on data.
 
 ```js
 await form({

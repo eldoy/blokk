@@ -23,7 +23,12 @@ module.exports = async function($) {
         <header id="header">
           <nav class="flex">
             <div>
-              <a href="${$.link('index')}">Home</a>
+              <a href="${$.link('index')}">
+                <img class="logo" src="/img/logo.png" height="25" width="25" alt="Blokk Elements logo">
+                Home
+              </a>
+              <a href="/demos">Demos</a>
+              <a href="/docs">Docs</a>
             </div>
             <div>
               <a href="https://github.com/eldoy/blokk">Code</a>

@@ -972,13 +972,17 @@ body {
 }
 
 main {
-  padding: 1rem 0 2rem;
+  padding: 5.5rem 0 2rem;
   max-width: 750px;
   min-height: 250px;
 }
 
 header {
-  background: limegreen;
+  border-bottom: 2px solid #ddeeff;
+  position: fixed;
+  background: white;
+  z-index: 1000;
+  opacity: 0.98;
 }
 header nav {
   padding: 1rem 0;
@@ -987,7 +991,6 @@ header nav {
 }
 header nav a, header nav a:hover, header nav a:visited, header nav a:active {
   margin: 0 0.5rem;
-  color: white;
 }
 
 footer {
