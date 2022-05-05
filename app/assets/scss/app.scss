@@ -35,6 +35,10 @@ header {
   }
 }
 
+a.active {
+  text-decoration: underline;
+}
+
 footer {
   color: #666;
   font-size: 95%;
@@ -83,3 +87,6 @@ footer {
   border-bottom: 1px solid $light;
   padding: 1rem 0;
 }
+
+@import 'notify.scss';
+@import 'demo.scss';

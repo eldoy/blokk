@@ -993,6 +993,10 @@ header nav a, header nav a:hover, header nav a:visited, header nav a:active {
   margin: 0 0.5rem;
 }
 
+a.active {
+  text-decoration: underline;
+}
+
 footer {
   color: #666;
   font-size: 95%;
@@ -1042,6 +1046,34 @@ footer {
 .list {
   border-bottom: 1px solid #dfdfdf;
   padding: 1rem 0;
+}
+
+.notify {
+  position: fixed;
+  top: 48px;
+  left: 0;
+  z-index: 1005;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.notify .flash {
+  width: fit-content;
+  min-width: 100px;
+  max-width: 775px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.2rem 1rem;
+  background: #333;
+  border-radius: 20px;
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.notify .flash:first-letter {
+  text-transform: uppercase;
+}
+.notify .flash:empty {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */

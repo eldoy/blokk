@@ -3,7 +3,7 @@ module.exports = async function($) {
 
   return /* html */`
     <h1>Demos</h1>
-    <p>Select your element to demo:</p>
+    <p>Select the component to demo:</p>
     <ul>
       <li><a href="/demo/forms">Forms</a></li>
       <li><a href="/demo/lists">Lists</a></li>
