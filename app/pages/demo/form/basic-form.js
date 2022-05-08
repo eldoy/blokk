@@ -19,7 +19,7 @@ module.exports = async function($) {
         message: 'The project was saved',
 
         // Used for update
-        // query: {
+        // update: {
         //   id: project.id
         // },
 
@@ -28,6 +28,7 @@ module.exports = async function($) {
             name: 'title',
             desc: 'This is the project title',
             placeholder: 'Write a title',
+            // type: 'textarea'
             // value: project.name
           },
           {
