@@ -1,3 +1,5 @@
 {
-  "domains": "blokk.eldoy.com"
+  "domains": "blokk.eldoy.com",
+  "proxy": "http://localhost:34650",
+  "ssr": true
 }
