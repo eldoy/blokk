@@ -4,5 +4,7 @@ const urls = [
 ]
 
 module.exports = async function($) {
+  console.log($.files)
+  console.log($.files.length)
   return urls
 }

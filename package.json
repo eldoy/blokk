@@ -30,8 +30,8 @@
     "escape-html": "^1.0.3",
     "mongowave": "^0.2.6",
     "sass": "^1.51.0",
-    "spekky": "^0.1.2",
-    "waveorb": "^0.30.6"
+    "spekky": "^0.1.3",
+    "waveorb": "^0.30.7"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",

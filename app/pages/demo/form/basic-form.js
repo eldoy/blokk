@@ -3,7 +3,9 @@ const form = require(process.cwd() + '/lib/form.js')
 module.exports = async function($) {
   $.page.title = 'Basic form'
 
-  const project = {}
+  const project = {
+    id: '1234'
+  }
 
   return /* html */`
     <a href="/demo/forms">&laquo; Back to form demos</a>
@@ -19,9 +21,9 @@ module.exports = async function($) {
         message: 'The project was saved',
 
         // Used for update
-        // update: {
-        //   id: project.id
-        // },
+        query: {
+          id: '你好'
+        },
 
         fields: [
           {
