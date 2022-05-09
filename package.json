@@ -30,11 +30,11 @@
     "escape-html": "^1.0.3",
     "mongowave": "^0.2.6",
     "sass": "^1.51.0",
-    "spekky": "^0.1.3",
     "waveorb": "^0.30.10"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",
-    "node-html-parser": "^5.3.3"
+    "node-html-parser": "^5.3.3",
+    "spekky": "^0.1.3"
   }
 }
