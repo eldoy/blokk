@@ -25,7 +25,7 @@ module.exports = async function($) {
       <a class="button" href="/docs">Check out the docs</a>
     </p>
     <p>
-      <a href="/demos">or check out the demos &raquo;</a>
+      <a href="/demo">or check out the demo &raquo;</a>
     </p>
   `
 }
