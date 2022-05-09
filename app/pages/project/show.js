@@ -1,5 +1,14 @@
+const item = require(process.cwd() + '/lib/item.js')
+
 module.exports = async function($) {
+  const project = await $.db('project').get({ id: $.query.project_id })
+
   return /* html */`
-    <h1>Show</h1>
+    <a href="/demo">&laquo; Back to project list</a>
+    <h1>Show project</h1>
+    ${await item({
+      title: 'Project details',
+      render: project
+    })}
   `
 }
