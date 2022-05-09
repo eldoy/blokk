@@ -22,28 +22,26 @@ module.exports = async function($) {
 
         // Used for update
         query: {
-          id: '你好'
+          id: project.id
         },
 
         fields: [
-          {
-            name: 'title',
-            desc: 'This is the project title',
-            placeholder: 'Write a title',
-            // type: 'textarea'
-            // value: project.name
-          },
+          // {
+          //   name: 'title',
+          //   desc: 'This is the project title',
+          //   placeholder: 'Write a title',
+          //   // type: 'textarea'
+          //   // value: project.name
+          // },
           {
             name: 'avatar',
             type: 'file',
-            upload: '/user/avatar',
-            // or with config
-            // upload: {
-            //   action: '/user/avatar',
-            //   config: {
-            //     resize: [150, 250]
-            //   }
-            // }
+            options: {
+              action: '/upload/create',
+              config: {
+                resize: [150, 250]
+              }
+            }
           }
         ]
       })}
