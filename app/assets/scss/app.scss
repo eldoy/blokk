@@ -83,10 +83,9 @@ footer {
   }
 }
 
-.list {
-  border-bottom: 1px solid $light;
-  padding: 1rem 0;
-}
-
 @import 'notify.scss';
-@import 'demo.scss';
+
+// Blokk styles
+@import 'blokk/list.scss';
+@import 'blokk/item.scss';
+@import 'blokk/form.scss';

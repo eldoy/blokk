@@ -28,7 +28,7 @@ module.exports = async function($) {
                 <img class="logo" src="/img/logo.png" height="25" width="25" alt="Blokk Elements logo">
                 Home
               </a>
-              <a href="/demos">Demos</a>
+              <a href="/demo">Demo</a>
               <a href="/docs">Docs</a>
             </div>
             <div>

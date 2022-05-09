@@ -1043,11 +1043,6 @@ footer {
   flex-grow: 1;
 }
 
-.list {
-  border-bottom: 1px solid #dfdfdf;
-  padding: 1rem 0;
-}
-
 .notify {
   position: fixed;
   top: 48px;
@@ -1074,6 +1069,10 @@ footer {
 }
 .notify .flash:empty {
   display: none;
+}
+
+.list nav.create {
+  float: right;
 }
 
 /*# sourceMappingURL=app.css.map */
