@@ -22,8 +22,16 @@
       padding: 0;
       li {
         display: flex;
+        min-width: 0;
         .item {
           flex-grow: 1;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          padding-right: 0.5rem;
+        }
+        .controls {
+          white-space: nowrap;
         }
       }
     }

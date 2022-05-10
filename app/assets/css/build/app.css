@@ -1094,9 +1094,17 @@ footer {
 }
 .list .items ul li {
   display: flex;
+  min-width: 0;
 }
 .list .items ul li .item {
   flex-grow: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 0.5rem;
+}
+.list .items ul li .controls {
+  white-space: nowrap;
 }
 .list #search {
   display: none;
