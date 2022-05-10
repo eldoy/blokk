@@ -2,4 +2,10 @@
   nav.create {
     float: right;
   }
+  #search {
+    display: none;
+  }
+  #search.open {
+    display: block;
+  }
 }

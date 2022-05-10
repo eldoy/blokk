@@ -1074,5 +1074,11 @@ footer {
 .list nav.create {
   float: right;
 }
+.list #search {
+  display: none;
+}
+.list #search.open {
+  display: block;
+}
 
 /*# sourceMappingURL=app.css.map */

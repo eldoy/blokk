@@ -11,6 +11,7 @@ module.exports = async function($) {
       title: 'Your projects',
       desc: 'This is what you have to do',
       create: `<a href="/project/new">+ Create new project</a>`,
+      search: '/project/search',
       render: projects,
       item: async function(project) {
         return project.title
