@@ -1071,8 +1071,32 @@ footer {
   display: none;
 }
 
-.list nav.create {
-  float: right;
+.list .top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.list .top .title {
+  flex-grow: 1;
+}
+.list .top .title h1, .list .top .title h2, .list .top .title h3, .list .top .title h4, .list .top .title h5, .list .top .title h6 {
+  margin-top: 0;
+  display: inline;
+}
+.list .top .title .toggler {
+  margin-left: 1rem;
+}
+.list .top .title .toggler img {
+  height: 20px;
+}
+.list .items ul {
+  padding: 0;
+}
+.list .items ul li {
+  display: flex;
+}
+.list .items ul li .item {
+  flex-grow: 1;
 }
 .list #search {
   display: none;

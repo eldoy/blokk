@@ -1,6 +1,32 @@
 .list {
-  nav.create {
-    float: right;
+  .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    .title {
+      flex-grow: 1;
+      h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        display: inline;
+      }
+      .toggler {
+        margin-left: 1rem;
+        img {
+          height: 20px;
+        }
+      }
+    }
+  }
+  .items {
+    ul {
+      padding: 0;
+      li {
+        display: flex;
+        .item {
+          flex-grow: 1;
+        }
+      }
+    }
   }
   #search {
     display: none;
