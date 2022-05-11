@@ -18,6 +18,9 @@ module.exports = async function($) {
           limit: 10,
           sort: { created_at: -1 }
         })
+      },
+      row: function(item) {
+        return item.title
       }
     })}
   `
