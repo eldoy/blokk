@@ -10,17 +10,31 @@ module.exports = async function($) {
 
   return /* html */`
     <h1>Demo</h1>
-    ${list({
+    ${await list({
       title: 'Projects',
       items: projects,
-      render: function() {
-        return api('/project/find', {
-          limit: 10,
-          sort: { created_at: -1 }
-        })
+      data: {
+        action: '/project/find',
+        limit: 10,
+        sort: {
+          created_at: -1
+        }
+      },
+      search: {
+        action: '/project/search',
+        limit: 10,
+        sort: {
+          created_at: -1
+        }
       },
       row: function(item) {
         return item.title
+      },
+      edit: function(item) {
+        return 'edit'
+      },
+      delete: function(item) {
+        return 'delete'
       }
     })}
   `

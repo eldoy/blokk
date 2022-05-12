@@ -1106,11 +1106,16 @@ footer {
 .list .items ul li .controls {
   white-space: nowrap;
 }
-.list #search {
+.list .search {
   display: none;
+  margin-bottom: 1rem;
 }
-.list #search.open {
+.list .search.open {
   display: block;
+}
+.list .paginate {
+  text-align: center;
+  padding: 1rem 0;
 }
 
 /*# sourceMappingURL=app.css.map */

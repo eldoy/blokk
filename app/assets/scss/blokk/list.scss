@@ -36,10 +36,15 @@
       }
     }
   }
-  #search {
+  .search {
     display: none;
+    margin-bottom: 1rem;
   }
-  #search.open {
+  .search.open {
     display: block;
+  }
+  .paginate {
+    text-align: center;
+    padding: 1rem 0;
   }
 }
