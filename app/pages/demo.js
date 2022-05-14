@@ -13,18 +13,23 @@ module.exports = async function($) {
     ${await list({
       title: 'Projects',
       items: projects,
-      fetch: function() {
+      fetch: function(state) {
         return api('/project/find', {
-          limit: 10,
+          limit: state.limit,
+          skip: state.skip,
           sort: {
             created_at: -1
           }
         })
       },
-      search: function(s) {
+      search: function(state) {
+        console.log(state.limit)
+        console.log(state.skip)
+        console.log(state.s)
         return api('/project/search', {
-          s,
-          limit: 10,
+          s: state.s,
+          limit: state.limit,
+          skip: state.skip,
           sort: {
             created_at: -1
           }
