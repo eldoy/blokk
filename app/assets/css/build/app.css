@@ -1071,51 +1071,54 @@ footer {
   display: none;
 }
 
-.list .top {
+blokk-list .top {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
-.list .top .title {
+blokk-list .top .title {
   flex-grow: 1;
 }
-.list .top .title h1, .list .top .title h2, .list .top .title h3, .list .top .title h4, .list .top .title h5, .list .top .title h6 {
+blokk-list .top .title h1, blokk-list .top .title h2, blokk-list .top .title h3, blokk-list .top .title h4, blokk-list .top .title h5, blokk-list .top .title h6 {
   margin-top: 0;
   display: inline;
 }
-.list .top .title .toggler {
+blokk-list .top .title .toggler {
   margin-left: 1rem;
 }
-.list .top .title .toggler img {
+blokk-list .top .title .toggler img {
   height: 20px;
 }
-.list .items ul {
+blokk-list .items ul {
   padding: 0;
 }
-.list .items ul li {
+blokk-list .items ul li {
   display: flex;
   min-width: 0;
 }
-.list .items ul li .item {
+blokk-list .items ul li .item {
   flex-grow: 1;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   padding-right: 0.5rem;
 }
-.list .items ul li .controls {
+blokk-list .items ul li .controls {
   white-space: nowrap;
 }
-.list .search {
+blokk-list .search {
   display: none;
   margin-bottom: 1rem;
 }
-.list .search.open {
+blokk-list .search.open {
   display: block;
 }
-.list .paginate {
+blokk-list .loadmore {
   text-align: center;
   padding: 1rem 0;
+}
+blokk-list .loadmore.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */

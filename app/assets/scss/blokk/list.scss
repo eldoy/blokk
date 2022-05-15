@@ -1,4 +1,4 @@
-.list {
+blokk-list {
   .top {
     display: flex;
     align-items: center;
@@ -43,8 +43,11 @@
   .search.open {
     display: block;
   }
-  .paginate {
+  .loadmore {
     text-align: center;
     padding: 1rem 0;
+  }
+  .loadmore.hidden {
+    display: none;
   }
 }
