@@ -1091,6 +1091,7 @@ blokk-list .top .title .toggler img {
 }
 blokk-list .items ul {
   padding: 0;
+  margin: 0;
 }
 blokk-list .items ul li {
   display: flex;

@@ -27,12 +27,6 @@ module.exports = async function($) {
       },
       detail: function(item) {
         return `${item.title} (${item.id})`
-      },
-      edit: function(item) {
-        return 'edit'
-      },
-      del: function(item) {
-        return 'delete'
       }
     })}
   `

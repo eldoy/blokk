@@ -1,7 +1,6 @@
 ### List
 
-* Remove load more when result is empty
-* Remove load more when no more results
+* Don't search until 2 characters written
 * Cache results:
   - Keep separate settings for fetch and search
 * Sticky settings loading away from page
