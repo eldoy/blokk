@@ -1,9 +1,8 @@
 ### List
 
-* Don't search until 2 characters written
 * Cache results:
   - Keep separate settings for fetch and search
-* Sticky settings loading away from page
+  - Sticky settings loading away from page
 * Translations pass in?
 * Add sort
 * Fancy pagination with numbers and/or next and previous

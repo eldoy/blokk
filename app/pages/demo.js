@@ -24,9 +24,6 @@ module.exports = async function($) {
         sort: {
           created_at: -1
         }
-      },
-      detail: function(item) {
-        return `${item.title} (${item.id})`
       }
     })}
   `
