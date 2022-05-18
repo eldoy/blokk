@@ -1,6 +1,6 @@
 module.exports = async function($) {
   let {
-    s = '',
+    search = '',
     query = {},
     fields = {},
     sort = { name: 1 },
@@ -9,7 +9,7 @@ module.exports = async function($) {
     include = []
   } = $.params
 
-  const regexp = new RegExp(s, 'i')
+  const regexp = new RegExp(search, 'i')
   return await $.db('project').find(
     {
       ...query,
