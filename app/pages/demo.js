@@ -33,6 +33,9 @@ module.exports = async function($) {
             skip,
             limit
           })
+        },
+        renderInfo: function(item) {
+          return `<a href="/project/show?project_id=${item.id}">${item.title} (${item.id})</a>`
         }
       })}
     </div>
