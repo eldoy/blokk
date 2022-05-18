@@ -1,5 +1,6 @@
 ### List
 
+* Show fetch if 0 characters in search box
 * Cache results:
   - Keep separate settings for fetch and search
   - Sticky settings loading away from page

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nodemon -q -e js,mjs,json,yml,css,md spec/index.js",
     "dev": "npm run clear:css && npm run build:css && concurrently -n 🔥,💗 \"npm run watch:app\" \"npm run watch:css\"",
-    "watch:app": "nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve",
+    "watch:app": "WAVEORB_PORT=5700 nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve",
     "watch:css": "sass --watch app/assets/scss/app.scss app/assets/css/build/app.css",
     "build:css": "sass app/assets/scss/app.scss app/assets/css/build/app.css",
     "build:css:min": "sass --style compressed --no-source-map app/assets/scss/app.scss app/assets/css/build/app.css",
@@ -28,6 +28,7 @@
   "license": "ISC",
   "dependencies": {
     "escape-html": "^1.0.3",
+    "hyperaktiv": "^0.1.2",
     "mongowave": "^0.2.6",
     "sass": "^1.51.0",
     "waveorb": "^0.30.10"
