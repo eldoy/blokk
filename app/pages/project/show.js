@@ -6,7 +6,7 @@ module.exports = async function($) {
   return /* html */`
     <a href="/demo">&laquo; Back to project list</a>
     <h1>Show project</h1>
-    ${await item({
+    ${item({
       title: 'Project details',
       render: project
     })}
