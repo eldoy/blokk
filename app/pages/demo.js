@@ -33,9 +33,6 @@ module.exports = async function($) {
             skip,
             limit
           })
-        },
-        renderInfo: function(item) {
-          return `${item.title} (${item.id})`
         }
       })}
     </div>
