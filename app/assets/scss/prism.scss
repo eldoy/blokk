@@ -1,7 +1,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: $monospace;
-	font-size: 17px;
+	font-size: 15px;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -20,11 +20,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #333;
+	color: #5a5a5a;
 }
 
 .token.punctuation {
-	color: #333;
+	color: #999;
 }
 
 .token.namespace {
@@ -67,7 +67,7 @@ pre[class*="language-"] {
 
 .token.function,
 .token.class-name {
-	color: darkred;
+	color: #DD4A68;
 }
 
 .token.regex,
